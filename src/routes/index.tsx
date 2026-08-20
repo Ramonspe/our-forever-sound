@@ -204,7 +204,7 @@ function Index() {
 
         {/* SÓ FRASE */}
         <Reveal>
-          <section className="flex flex-col items-center gap-6 sm:gap-10 md:flex-row md:items-center">
+          <section className="my-20 flex flex-col items-center gap-6 sm:my-28 sm:gap-10 md:flex-row md:items-center">
             <img
               src={incondicionalmente2.url}
               alt="O casal se espelhando juntos"
