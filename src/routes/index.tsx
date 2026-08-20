@@ -61,13 +61,13 @@ const MOMENTS = [
   {
     img: flor1,
     alt: "Raíla sorrindo com um buquê de flores e ursinho",
-    text: "Então seu encanto de girassol passou 1 mês oficial comigo. 🌻",
+    text: "Então seu encanto de girassol passou 1 mês oficialmente comigo. 🌻",
     date: "30/10/2025",
   },
   {
     img: anel2,
     alt: "Mãos do casal com os anéis em um show",
-    text: "Até que eu dei o anel no dia que foi nosso primeiro assunto.",
+    text: "Até que selei minha promessa com um anel, no show que foi nosso primeiro assunto.",
     date: "08/11/2025",
   },
   {
