@@ -7,17 +7,17 @@ import { LiveCounter } from "@/components/LiveCounter";
 import { Reveal } from "@/components/Reveal";
 import { VinylPlayer } from "@/components/VinylPlayer";
 
-import hero from "@/assets/hero.jpg.asset.json";
-import conjunto1 from "@/assets/conjunto1.jpg.asset.json";
-import ibira from "@/assets/ibira.jpg.asset.json";
-import pedido from "@/assets/pedido_de_namoro.jpg.asset.json";
-import flor1 from "@/assets/flor1.jpg.asset.json";
-import anel2 from "@/assets/anel2.jpg.asset.json";
-import intimidade from "@/assets/intimidade.jpg.asset.json";
-import amadureceu from "@/assets/amadureceu.jpg.asset.json";
-import melhoraram from "@/assets/melhoraram.jpg.asset.json";
-import incondicionalmente2 from "@/assets/incondicionalmente-2.jpg.asset.json";
-import sempre1 from "@/assets/sempre1.jpg.asset.json";
+import hero from "@/assets/hero.jpg";
+import conjunto1 from "@/assets/conjunto1.jpg";
+import ibira from "@/assets/ibira.jpg";
+import pedido from "@/assets/pedido_de_namoro.jpg";
+import flor1 from "@/assets/flor1.jpg";
+import anel2 from "@/assets/anel2.jpg";
+import intimidade from "@/assets/intimidade.jpg";
+import amadureceu from "@/assets/amadureceu.jpg";
+import melhoraram from "@/assets/melhoraram.jpg";
+import incondicionalmente from "@/assets/incondicionalmente.jpg";
+import sempre1 from "@/assets/sempre1.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -149,7 +149,7 @@ function Index() {
         <section className="flex min-h-screen flex-col items-center justify-center gap-7 py-16 text-center">
           <Reveal className="w-full">
             <img
-              src={hero.url}
+              src={hero}
               alt="Raíla e Ramon abraçados em frente à árvore de Natal"
               loading="lazy"
               className="photo-frame mx-auto max-h-[62vh] w-full max-w-sm object-cover"
@@ -180,7 +180,7 @@ function Index() {
                   } md:items-center`}
                 >
                   <img
-                    src={m.img.url}
+                    src={m.img}
                     alt={m.alt}
                     loading="lazy"
                     className="photo-frame w-full max-w-xs object-cover md:max-w-sm"
@@ -206,7 +206,7 @@ function Index() {
         <Reveal>
           <section className="my-20 flex flex-col items-center gap-6 sm:my-28 sm:gap-10 md:flex-row md:items-center">
             <img
-              src={incondicionalmente2.url}
+              src={incondicionalmente}
               alt="O casal se espelhando juntos"
               loading="lazy"
               className="photo-frame w-full max-w-xs object-cover md:max-w-sm"
@@ -229,7 +229,7 @@ function Index() {
         <Reveal>
           <section className="flex min-h-screen flex-col items-center justify-center gap-8 py-16 text-center">
             <img
-              src={sempre1.url}
+              src={sempre1}
               alt="Raíla e Ramon juntos"
               loading="lazy"
               className="photo-frame mx-auto max-h-[60vh] w-full max-w-sm object-cover"
