@@ -16,6 +16,7 @@ import anel2 from "@/assets/anel2.jpg.asset.json";
 import intimidade from "@/assets/intimidade.jpg.asset.json";
 import amadureceu from "@/assets/amadureceu.jpg.asset.json";
 import melhoraram from "@/assets/melhoraram.jpg.asset.json";
+import incondicionalmente2 from "@/assets/incondicionalmente-2.jpg.asset.json";
 import sempre1 from "@/assets/sempre1.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
@@ -203,25 +204,24 @@ function Index() {
 
         {/* SÓ FRASE */}
         <Reveal>
-          <section className="relative my-28 py-16 text-center sm:my-36 sm:py-24">
-            <span aria-hidden className="absolute left-4 top-4 text-2xl text-rose/50">
-              ❤
-            </span>
-            <span aria-hidden className="absolute right-6 top-10 text-xl text-gold/60">
-              ❤
-            </span>
-            <span aria-hidden className="absolute bottom-6 left-10 text-xl text-gold/60">
-              ❤
-            </span>
-            <span aria-hidden className="absolute bottom-4 right-5 text-2xl text-rose/50">
-              ❤
-            </span>
-            <p className="mx-auto max-w-3xl font-script text-4xl leading-tight text-wine sm:text-6xl">
-              De modo que passei a te amar incondicionalmente
-            </p>
-            <p className="mt-6 text-xs tracking-[0.25em] text-rose uppercase sm:text-sm">
-              16/05/2026
-            </p>
+          <section className="flex flex-col items-center gap-6 sm:gap-10 md:flex-row md:items-center">
+            <img
+              src={incondicionalmente2.url}
+              alt="O casal se espelhando juntos"
+              loading="lazy"
+              className="photo-frame w-full max-w-xs object-cover md:max-w-sm"
+            />
+            <div className="min-w-0 flex-1 text-center md:text-left">
+              <span aria-hidden className="text-lg text-gold">
+                ❦
+              </span>
+              <p className="font-script text-3xl leading-snug text-wine sm:text-4xl">
+                De modo que passei a te amar incondicionalmente
+              </p>
+              <p className="mt-3 text-xs tracking-[0.2em] text-rose uppercase sm:text-sm">
+                16/05/2026
+              </p>
+            </div>
           </section>
         </Reveal>
 
